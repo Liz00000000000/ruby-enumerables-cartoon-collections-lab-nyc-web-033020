@@ -20,8 +20,9 @@ def find_the_chees(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-   if array.indluce?{ |cheese| cheese_types}
-     return cheese_types[cheese]
+   if array.indluce?("chedder" || "gouda")
+     return "chedder" || "gouda"
+   else return nil 
      end
 
 end
