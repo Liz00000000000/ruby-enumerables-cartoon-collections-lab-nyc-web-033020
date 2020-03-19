@@ -22,13 +22,16 @@ def find_the_chees(array)# code an argument here
 
    if array.indluce?("cheddar")
        return "cheddar"
+     end
 
-   elsif array.include?("gouda")
+   if array.include?("gouda")
        return "gouda"
+     end
 
-   elsif array.include?("camembert")
+   if array.include?("camembert")
        return "camembert"
+     end
 
-     else return nil
+     if array == array.include?()
    end
 end
