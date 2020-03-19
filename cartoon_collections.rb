@@ -32,7 +32,4 @@ def find_the_chees(array)# code an argument here
        return "camembert"
      end
 
-     if array != array.include?("cheddar" || "gouda" || "camembert")
-       return nil 
-   end
 end
