@@ -21,14 +21,14 @@ def find_the_chees(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 
      if array.indluce?("cheddar")
-       return array[0]
+       return array["cheddar"]
      end
 
      if array.include?("gouda")
-       return array[0]
+       return array["gouda"]
      end
 
      if array.include?("camembert")
-       return array[0]
+       return array["camembert"]
      end
 end
